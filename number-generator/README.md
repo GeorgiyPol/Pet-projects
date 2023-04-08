@@ -1,18 +1,14 @@
-# iphone-settings-screen-clone
+# number-generator
 
 ## Описание:
-Простое приложение "Экран настроек IPhone"
+Простое приложение "Генератор случайных чисел". В приложении по умолчанию выставлены границы генерации от 0 до 100. Пользователь может вносить изменения в пределы генерации числа.
 
 ## Стэк:
 - UIKit
 - MVC
-- UITableView
-- UITableViewCell
 - Label
 - View
-- ImageView
 - верстка кодом
-- SnapKit
 
 | mainScreen | setting | mainScreen |
 | ------------ | ------------ | ------------ |
