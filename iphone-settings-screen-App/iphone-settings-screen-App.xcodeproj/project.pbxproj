@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BCC8DC2934942F00DFE4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8DB2934942F00DFE4E7 /* AppDelegate.swift */; };
+		40BCC8E52934943000DFE4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BCC8E42934943000DFE4E7 /* Assets.xcassets */; };
+		40BCC8E82934943000DFE4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BCC8E62934943000DFE4E7 /* LaunchScreen.storyboard */; };
+		40BCC8F82934978A00DFE4E7 /* SettingsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8F72934978A00DFE4E7 /* SettingsSections.swift */; };
+		40BCC8FA293497AF00DFE4E7 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8F9293497AF00DFE4E7 /* SettingsModel.swift */; };
+		40BCC8FD293497EF00DFE4E7 /* ExtensionSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8FC293497EF00DFE4E7 /* ExtensionSettingsModel.swift */; };
+		40BCC8FF2934983300DFE4E7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8FE2934983300DFE4E7 /* SettingsView.swift */; };
+		40BCC9012934985300DFE4E7 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC9002934985300DFE4E7 /* SettingTableViewCell.swift */; };
+		40BCC9032934987B00DFE4E7 /* SettingSomeInfoOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC9022934987B00DFE4E7 /* SettingSomeInfoOption.swift */; };
+		40BCC9052934989B00DFE4E7 /* SettingTableFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC9042934989B00DFE4E7 /* SettingTableFigure.swift */; };
+		40BCC907293498BD00DFE4E7 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC906293498BD00DFE4E7 /* SwitchTableViewCell.swift */; };
+		40BCC909293498FF00DFE4E7 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC908293498FF00DFE4E7 /* SettingsController.swift */; };
+		A82DF62270EEB941D038B8E7 /* Pods_iphone_settings_screen_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B2DB3A90F67B403898B310 /* Pods_iphone_settings_screen_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03B2DB3A90F67B403898B310 /* Pods_iphone_settings_screen_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphone_settings_screen_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BCC8D82934942F00DFE4E7 /* iphone-settings-screen-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iphone-settings-screen-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BCC8DB2934942F00DFE4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40BCC8E42934943000DFE4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BCC8E72934943000DFE4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40BCC8E92934943000DFE4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BCC8F72934978A00DFE4E7 /* SettingsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSections.swift; sourceTree = "<group>"; };
+		40BCC8F9293497AF00DFE4E7 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		40BCC8FC293497EF00DFE4E7 /* ExtensionSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSettingsModel.swift; sourceTree = "<group>"; };
+		40BCC8FE2934983300DFE4E7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		40BCC9002934985300DFE4E7 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		40BCC9022934987B00DFE4E7 /* SettingSomeInfoOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSomeInfoOption.swift; sourceTree = "<group>"; };
+		40BCC9042934989B00DFE4E7 /* SettingTableFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableFigure.swift; sourceTree = "<group>"; };
+		40BCC906293498BD00DFE4E7 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		40BCC908293498FF00DFE4E7 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		463455D7297623ADECACA94F /* Pods-iphone-settings-screen-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone-settings-screen-App.debug.xcconfig"; path = "Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App.debug.xcconfig"; sourceTree = "<group>"; };
+		F39006B65699DC554886CC6C /* Pods-iphone-settings-screen-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone-settings-screen-App.release.xcconfig"; path = "Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BCC8D52934942F00DFE4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82DF62270EEB941D038B8E7 /* Pods_iphone_settings_screen_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAC661B5F5885D02FE3F8FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				463455D7297623ADECACA94F /* Pods-iphone-settings-screen-App.debug.xcconfig */,
+				F39006B65699DC554886CC6C /* Pods-iphone-settings-screen-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		40BCC8CF2934942F00DFE4E7 = {
+			isa = PBXGroup;
+			children = (
+				40BCC8DA2934942F00DFE4E7 /* iphone-settings-screen-App */,
+				40BCC8D92934942F00DFE4E7 /* Products */,
+				0AAC661B5F5885D02FE3F8FF /* Pods */,
+				B455234253D94BFD9E1A373A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40BCC8D92934942F00DFE4E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8D82934942F00DFE4E7 /* iphone-settings-screen-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BCC8DA2934942F00DFE4E7 /* iphone-settings-screen-App */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8F02934945B00DFE4E7 /* Sources */,
+				40BCC8EF2934945400DFE4E7 /* Resources */,
+			);
+			path = "iphone-settings-screen-App";
+			sourceTree = "<group>";
+		};
+		40BCC8EF2934945400DFE4E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8E42934943000DFE4E7 /* Assets.xcassets */,
+				40BCC8E62934943000DFE4E7 /* LaunchScreen.storyboard */,
+				40BCC8E92934943000DFE4E7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40BCC8F02934945B00DFE4E7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8F22934946700DFE4E7 /* App */,
+				40BCC8F32934946D00DFE4E7 /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		40BCC8F22934946700DFE4E7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8DB2934942F00DFE4E7 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		40BCC8F32934946D00DFE4E7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8F62934949400DFE4E7 /* Controller */,
+				40BCC8F52934949000DFE4E7 /* View */,
+				40BCC8F42934948B00DFE4E7 /* Model */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		40BCC8F42934948B00DFE4E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8F72934978A00DFE4E7 /* SettingsSections.swift */,
+				40BCC8F9293497AF00DFE4E7 /* SettingsModel.swift */,
+				40BCC8FC293497EF00DFE4E7 /* ExtensionSettingsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40BCC8F52934949000DFE4E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC8FE2934983300DFE4E7 /* SettingsView.swift */,
+				40BCC9002934985300DFE4E7 /* SettingTableViewCell.swift */,
+				40BCC9022934987B00DFE4E7 /* SettingSomeInfoOption.swift */,
+				40BCC9042934989B00DFE4E7 /* SettingTableFigure.swift */,
+				40BCC906293498BD00DFE4E7 /* SwitchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40BCC8F62934949400DFE4E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40BCC908293498FF00DFE4E7 /* SettingsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B455234253D94BFD9E1A373A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B2DB3A90F67B403898B310 /* Pods_iphone_settings_screen_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BCC8D72934942F00DFE4E7 /* iphone-settings-screen-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BCC8EC2934943000DFE4E7 /* Build configuration list for PBXNativeTarget "iphone-settings-screen-App" */;
+			buildPhases = (
+				330C80DEA3B328E2B26A1B03 /* [CP] Check Pods Manifest.lock */,
+				40BCC8D42934942F00DFE4E7 /* Sources */,
+				40BCC8D52934942F00DFE4E7 /* Frameworks */,
+				40BCC8D62934942F00DFE4E7 /* Resources */,
+				D4060A50B659E8C51FF7D968 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iphone-settings-screen-App";
+			productName = "iphone-settings-screen-App";
+			productReference = 40BCC8D82934942F00DFE4E7 /* iphone-settings-screen-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BCC8D02934942F00DFE4E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					40BCC8D72934942F00DFE4E7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 40BCC8D32934942F00DFE4E7 /* Build configuration list for PBXProject "iphone-settings-screen-App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BCC8CF2934942F00DFE4E7;
+			productRefGroup = 40BCC8D92934942F00DFE4E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BCC8D72934942F00DFE4E7 /* iphone-settings-screen-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BCC8D62934942F00DFE4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCC8E82934943000DFE4E7 /* LaunchScreen.storyboard in Resources */,
+				40BCC8E52934943000DFE4E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330C80DEA3B328E2B26A1B03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iphone-settings-screen-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4060A50B659E8C51FF7D968 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BCC8D42934942F00DFE4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCC8FA293497AF00DFE4E7 /* SettingsModel.swift in Sources */,
+				40BCC8FD293497EF00DFE4E7 /* ExtensionSettingsModel.swift in Sources */,
+				40BCC9012934985300DFE4E7 /* SettingTableViewCell.swift in Sources */,
+				40BCC8FF2934983300DFE4E7 /* SettingsView.swift in Sources */,
+				40BCC909293498FF00DFE4E7 /* SettingsController.swift in Sources */,
+				40BCC9032934987B00DFE4E7 /* SettingSomeInfoOption.swift in Sources */,
+				40BCC8F82934978A00DFE4E7 /* SettingsSections.swift in Sources */,
+				40BCC907293498BD00DFE4E7 /* SwitchTableViewCell.swift in Sources */,
+				40BCC8DC2934942F00DFE4E7 /* AppDelegate.swift in Sources */,
+				40BCC9052934989B00DFE4E7 /* SettingTableFigure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40BCC8E62934943000DFE4E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BCC8E72934943000DFE4E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40BCC8EA2934943000DFE4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BCC8EB2934943000DFE4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BCC8ED2934943000DFE4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463455D7297623ADECACA94F /* Pods-iphone-settings-screen-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 636TS9JX4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iphone-settings-screen-App/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GP.iphone-settings-screen-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BCC8EE2934943000DFE4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39006B65699DC554886CC6C /* Pods-iphone-settings-screen-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 636TS9JX4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iphone-settings-screen-App/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GP.iphone-settings-screen-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BCC8D32934942F00DFE4E7 /* Build configuration list for PBXProject "iphone-settings-screen-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BCC8EA2934943000DFE4E7 /* Debug */,
+				40BCC8EB2934943000DFE4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BCC8EC2934943000DFE4E7 /* Build configuration list for PBXNativeTarget "iphone-settings-screen-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BCC8ED2934943000DFE4E7 /* Debug */,
+				40BCC8EE2934943000DFE4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BCC8D02934942F00DFE4E7 /* Project object */;
+}
